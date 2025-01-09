@@ -5,7 +5,7 @@ export class NewsItem extends Component {
     render() {
         let {title, description, imageUrl, newsUrl, author, date, source} = this.props;
         return (
-        <div className='my-4'>
+        <div className='my-3'>
             <div className="card">
                 <img src={imageUrl?imageUrl:"https://c8.alamy.com/comp/2R9J9MT/reading-an-online-newspaper-in-internet-browser-instant-news-access-pixel-perfect-icon-2R9J9MT.jpg"} className="card-img-top" alt="..." />
                 <div className="card-body">
